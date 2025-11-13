@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- META -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- SEO META -->
+    <meta name="description" content="Portfolio of Lauren Salvo — Full-Stack Developer crafting high-performance web experiences with Next.js, TypeScript, and modern design systems. Based in San Francisco.">
+    <meta name="keywords" content="Lauren Salvo, developer portfolio, full-stack, frontend, Next.js, TypeScript, React, UI/UX, web developer, software engineer, San Francisco">
+    <meta name="author" content="Lauren Salvo">
+
+    <!-- PAGE TITLE -->
+    <title>Lauren Salvo | Full-Stack Developer | Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" href="assets/images/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+    <!-- OPEN GRAPH / SOCIAL META -->
+    <meta property="og:title" content="Lauren Salvo — Full-Stack Developer">
+    <meta property="og:description" content="Crafting scalable apps and elegant interfaces with clean code, creativity, and precision.">
+    <meta property="og:url" content="https://lauren-salvo.dev">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lauren-salvo.dev/assets/images/social-preview.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lauren Salvo — Full-Stack Developer">
+    <meta name="twitter:description" content="Portfolio of Lauren Salvo, building modern web experiences using React, Next.js & TypeScript.">
+    <meta name="twitter:image" content="https://lauren-salvo.dev/assets/images/social-preview.jpg">
+    <!-- ALL GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- FONT AWESOME CSS -->
+    <link rel="stylesheet" href="assets/fonts/remixicon.css" />
+    <!-- MAGNIFIC CSS -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- NICE SELECT CSS -->
+    <link rel="stylesheet" href="assets/css/nice-select.min.css" />
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" />
+    <!-- SLICK CSS -->
+    <link rel="stylesheet" href="assets/css/slick.min.css" />
+    <!-- SPACING CSS -->
+    <link rel="stylesheet" href="assets/css/spacing.css" />
+    <!-- MAIN STYLE CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- START PRELOADER AREA-->
+    <div class="preloader">
+        <svg viewbox="0 0 1000 1000" preserveaspectratio="none">
+            <path id="preloaderSvg" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
+        </svg>
+        <div class="preloader-heading">
+            <div class="load-text">
+                <span>L</span>
+                <span>a</span>
+                <span>u</span>
+                <span>r</span>
+                <span>e</span>
+                <span>n</span>
+                <span> </span>
+                <span>S.</span>
+            </div>
+        </div>
+    </div>
+    <!-- END PRELOADER AREA -->
+    <!-- START MENU DESIGN AREA -->
+    <header class="main-header">
+        <div class="header-upper">
+            <div class="container">
+                <div class="header-inner d-flex align-items-center">
+                    <!-- START LOGO DESIGN AREA -->
+                    <div class="logo-outer">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo.png" alt="Logo" title="Logo" /></a>
+                        </div>
+                    </div>
+                    <!-- / END LOGO DESIGN AREA -->
+                    <!-- START NAV DESIGN AREA -->
+                    <div class="nav-outer clearfix mx-auto">
+                        <!-- Main Menu -->
+                        <nav class="main-menu navbar-expand-lg">
+                            <div class="navbar-header">
+                                <div class="mobile-logo">
+                                    <a href="index.html">
+                                        <img src="assets/images/logo.png" alt="Logo" title="Logo" />
+                                    </a>
+                                </div>
+                                <!-- Toggle Button -->
+                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="navbar-collapse collapse">
+                                <ul class="navigation onepage clearfix">
+                                    <li><a class="nav-link-click" href="#about">about</a></li>
+                                    <li><a class="nav-link-click" href="#service">services</a></li>
+                                    <li><a class="nav-link-click" href="#works">works</a></li>
+                                    <li><a class="nav-link-click" href="#pricing">Pricing</a></li>
+                                    <li><a class="nav-link-click" href="#contact">Contact</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <!-- / END NAV DESIGN AREA -->
+                    </div>
+                    <div class="menu-btns">
+                        <a href="#contact" class="theme-btn">Hire Me<i class="ri-service-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- / END MENU DESIGN AREA -->
+    <!-- START ABOUT DESIGN AREA -->
+    <section id="about" class="about-area">
+        <div class="container">
+            <div class="row">
+                <!-- START ABOUT IMAGE DESIGN AREA -->
+                <div class="col-lg-4">
+                    <div class="about-image-part wow fadeInUp delay-0-3s">
+                        <div class="about-image-part2">
+							<img src="assets/images/about/profile.jpeg" alt="About Me" />
+						</div>
+                        <h2>Lauren Salvo</h2>
+                        <p>I am a Full-stack developer based in San Francisco.</p>
+                        <div class="about-social text-center">
+                            <ul>
+                                <li><a href="https://www.behance.net/lauren-salvo"><i class="ri-behance-line"></i></a></li>
+                                <li><a href="https://x.com/dev_lauren_S"><i class="ri-twitter-x-line"></i></a></li>
+                                <li><a href="https://github.com/lauren-salvo"><i class="ri-github-line"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END ABOUT IMAGE DESIGN AREA -->
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-lg-8">
+                    <div class="about-content-part wow fadeInUp delay-0-2s">
+                        <p>Hi There!</p>
+                        <h2>
+                            I’m <span>Lauren Salvo</span>, a full-stack developer focused on <span>shipping reliable, maintainable</span> web apps with great UX.
+                        </h2>
+                        <div class="adress-field">
+                            <ul>
+                                <li><i class="ri-circle-fill"></i>Available for Freelancing</li>
+                            </ul>
+                        </div>
+                        <div class="hero-btns">
+                            <a href="https://www.dropbox.com/scl/fi/fqoobo9cu81794qwjd7ck/Lauren_Salvo_Resume.pdf?rlkey=83jq4ypk0q4gwzhcxxc5j5nwb&st=uo02yorc&dl=0" class="theme-btn">Download CV <i class="ri-download-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="about-content-part-bottom wow fadeInUp delay-0-2s">
+						<div class="company-list">
+                            <div class="scroller" data-direction="left" data-speed="slow">
+                                <div class="scroller__inner">
+                                    <h4>Full-Stack Developer</h4>
+                                    <h4>React/Next.js</h4>
+                                    <h4>TypeScript</h4>
+                                    <h4>Serverless & Jamstack</h4>
+                                    <h4>Building fast, accessible web apps</h4>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!-- / END ABOUT DESIGN AREA -->
+    <!-- START SERVICE DESIGN AREA -->
+    <section id="service" class="services-area innerpage-single-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <p>Services</p>
+                            <h2>Core Specialties</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- START SINGLE SERVICE DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item wow fadeInUp delay-0-2s">
+                            <i class="ri-code-s-line"></i>
+                            <h4>Frontend + Backend Development</h4>
+                            <p>React, Next.js, TypeScript, Tailwind CSS + Node.js, Serverless, REST & GraphQL</p>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE SERVICE DESIGN AREA -->
+                    <!-- START SINGLE SERVICE DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item wow fadeInUp delay-0-4s">
+                            <i class="ri-folder-cloud-line"></i>
+                            <h4>DevOps + Testing</h4>
+                            <p>GitHub Actions, Vercel, Docker basics + Jest, React Testing Library, Playwright end-to-end</p>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE SERVICE DESIGN AREA -->
+                    <!-- START SINGLE SERVICE DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="service-item wow fadeInUp delay-0-6s">
+                            <i class="ri-tools-fill"></i>
+                            <h4>Tooling + Soft Skills</h4>
+                            <p>Figma, Miro, Notion, GitHub, Wrike, Dropbox + cross-functional collaboration, code reviews, mentoring, product thinking</p>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE SERVICE DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END SERVICE DESIGN AREA -->
+   <!-- START RESUME EXPERIENCE DESIGN AREA -->
+    <section id="resume" class="resume-area">
+        <div class="container">
+            <div class="resume-items">
+                <div class="row">
+                    <!-- START EXPERIENCE RESUME DESIGN AREA -->
+                    <div class="col-xl-6 col-md-12">
+                        <div class="single-resume">
+                            <h2>Experience</h2>
+                            <div class="experience-list">
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2021 - Present</span>
+                                        <h4>Freelance / Contract Full-Stack Developer — Lauren Salvo</h4>
+                                        <span class="company"> Built 8+ production sites and apps using Next.js + TypeScript; responsible for architecture, CI/CD and analytics. </span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2020 - 2022</span>
+                                        <h4>Frontend Engineer — Growth SaaS</h4>
+                                        <span class="company">Converted legacy frontend into a modular React app and introduced TypeScript across the repo.</span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2019 - 2021</span>
+                                        <h4> Open Source / Themekit Contributor — Various</h4>
+                                        <span class="company">Published utility packages, contributed bug fixes for accessibility issues, and maintained project docs and CI.</span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // END EXPERIENCE RESUME DESIGN AREA -->
+                    <!-- START EDUCATION RESUME DESIGN AREA -->
+                    <div class="col-xl-6 col-md-12">
+                        <div class="experience-list">
+                            <div class="single-resume">
+                                <h2>Education</h2>
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2014 - 2018</span>
+                                        <h4>Bachelor of Science in Computer Science</h4>
+                                        <span class="company">San Francisco State University
+                                        </span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2012 - 2014</span>
+                                        <h4>Associate of Science in Information Technology </h4>
+                                        <span class="company">Diablo Valley College</span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                                <!-- START SINGLE RESUME DESIGN AREA -->
+                                <div class="resume-item wow fadeInUp delay-0-3s">
+                                    <div class="icon">
+                                        <i class="ri-book-line"></i>
+                                    </div>
+                                    <div class="content">
+                                        <span class="years">2020</span>
+                                        <h4>Certificate in UX/UI Design</h4>
+                                        <span class="company"> University of California, Berkeley Extension </span>
+                                    </div>
+                                </div>
+                                <!-- / END SINGLE RESUME DESIGN AREA -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- // END EDUCATION RESUME DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END RESUME EXPERIENCE DESIGN AREA -->	
+    <!-- START SKILL DESIGN AREA -->
+    <section id="skills" class="skill-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12 col-lg-12">
+                    <div class="section-title text-center mb-60 wow fadeInUp delay-0-2s">
+                        <p>Pro Skills</p>
+                        <h2>Let’s Explore My Skills</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="skill-items-wrap">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-2s">
+                                    <img src="assets/images/skills/skill1.png" alt="Skill" />
+                                    <h5>TypeScript/JavaScript</h5>
+                                    <span class="percent">99%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-3s">
+                                    <img src="assets/images/skills/skill2.png" alt="Skill" />
+                                    <h5>React / Next.js</h5>
+                                    <span class="percent">93%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-4s">
+                                    <img src="assets/images/skills/skill3.png" alt="Skill" />
+                                    <h5>Node.js / Serverless</h5>
+                                    <span class="percent">63%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-5s">
+                                    <img src="assets/images/skills/skill4.png" alt="Skill" />
+                                    <h5>CSS / Tailwind</h5>
+                                    <span class="percent">94%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-2s">
+                                    <img src="assets/images/skills/skill5.png" alt="Skill" />
+                                    <h5>Testing (Jest / RTL)</h5>
+                                    <span class="percent">75%</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-sm-6 col-xs-12">
+                                <div class="skill-item wow fadeInUp delay-0-3s">
+                                    <img src="assets/images/skills/skill6.png" alt="Skill" />
+                                    <h5>SQL / NoSQL basics</h5>
+                                    <span class="percent">76%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END SKILL DESIGN AREA -->	
+    <!-- START PORTFOLIO DESIGN AREA -->
+    <section id="works" class="projects-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <h2>Works & Projects</h2>
+                            <p>For live projects and case studies, contact Lauren at hello@lauren-salvo.dev. She'll provide project links, access instructions, and supporting materials.</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="project-filter filter-btns-one justify-content-left pb-15 wow fadeInUp delay-0-2s">
+                    <li data-filter="*" class="current">Show All</li>
+                    <li data-filter=".design">E-Commerce & Checkout</li>
+                    <li data-filter=".branding">Data & Analysis</li>
+                    <li data-filter=".marketing">Marketing & SaaS Landing Pages</li>
+                    <li data-filter=".game">UI Components & Social Proof</li>
+                </ul>
+                <div class="row project-masonry-active">
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item design">
+                        <div class="project-item style-two wow fadeInUp delay-0-3s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work1.png" alt="Food checkout UI showing cart summary and payment step">
+                                 <a href="assets/images/projects/work1.png" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">A streamlined, web-first checkout flow with clear progress states and fast serverless form handling.</span>
+                                <h3>Food Checkout</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item branding">
+                        <div class="project-item style-two wow fadeInUp delay-0-4s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work2.png" alt="Analytics dashboard with graphs and KPI cards.">
+                                <a href="assets/images/projects/work2.png" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Clean, card-based metrics and visualizations for monitoring user activity and business health.</span>
+                                <h3>Analytics Dashboard</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item marketing">
+                        <div class="project-item style-two wow fadeInUp delay-0-5s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work3.png" alt="SaaS landing page mock showing headline, features, and CTA.">
+                                <a href="assets/images/projects/work3.png" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Lead-focused layout with benefit highlights, social proof and a clear CTA to trial or demo.</span>
+                                <h3>SaaS Landing Page</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item marketing">
+                        <div class="project-item style-two wow fadeInUp delay-0-6s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work4.png" alt="Startup landing page with hero illustration and feature callouts.">
+                                <a href="assets/images/projects/work4.png" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Lightweight, storytelling-focused page for early-stage products and pitch presentations.</span>
+                                <h3>Startup Page</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item marketing">
+                        <div class="project-item style-two wow fadeInUp delay-0-7s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work5.png" alt="Automotive services landing page header with headline and call to action.">
+                                <a href="assets/images/projects/work5.png" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Hero/header design tailored to automotive services with trust signals and next-step CTAs.</span>
+                                <h3>AutoWorks Landing Header</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START PORTFOLIO DESIGN AREA -->
+                    <!-- START SINGLE PORTFOLIO DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6 item game">
+                        <div class="project-item style-two wow fadeInUp delay-0-8s">
+                            <div class="project-image">
+                                <img src="assets/images/projects/work6.jpg" alt="Testimonials section with client quotes and profile thumbnails.">
+                                <a href="assets/images/projects/work6.jpg" class="details-btn work-popup"><i class="ri-arrow-right-up-line"></i></a>
+                            </div>
+                            <div class="project-content">
+                                <span class="sub-title">Responsive testimonial layout with author details and CTA to case studies or contact.</span>
+                                <h3>Testimonial Section</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- / END SINGLE PORTFOLIO DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- // END PORTFOLIO DESIGN AREA -->
+   <!-- START PRICING DESIGN AREA -->
+    <section id="pricing" class="pricing-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <p>Packages</p>
+                            <h2>Services & Pricing</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-item wow fadeInUp delay-0-2s">
+                            <div class="pricing-header">
+                                <h4 class="title">Starter</h4>
+                                <p class="save-percent">Launch • 1–2 weeks</p>
+                                <span class="price">1,500</span>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li><i class="ri-arrow-right-line"></i>One-page responsive site</li>
+                                    <li><i class="ri-arrow-right-line"></i>CMS/MDX setup</li>
+                                    <li><i class="ri-arrow-right-line"></i>SEO & performance tuning</li>
+                                    <li><i class="ri-arrow-right-line"></i>Contact form integration</li>
+                                </ul>
+                                <a href="#" class="theme-btn">Order Now <i class="ri-shopping-basket-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-item wow fadeInUp delay-0-4s">
+                            <div class="pricing-header">
+                                <h4 class="title">Professional</h4>
+                                <p class="save-percent">Product • 3-4 weeks</p>
+                                <span class="price">4,500</span>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li><i class="ri-arrow-right-line"></i>Multi-page React/Next.js app</li>
+                                    <li><i class="ri-arrow-right-line"></i>Component library & design tokens</li>
+                                    <li><i class="ri-arrow-right-line"></i>Analytics & conversion tracking</li>
+                                    <li><i class="ri-arrow-right-line"></i>2 revisions, 30-day support</li>
+                                </ul>
+                                <a href="#" class="theme-btn">Order Now <i class="ri-shopping-basket-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- START SINGLE PRICING DESIGN AREA -->
+                    <div class="col-lg-4 col-md-6">
+                        <div class="pricing-item wow fadeInUp delay-0-4s">
+                            <div class="pricing-header">
+                                <h4 class="title">Growth</h4>
+                                <p class="save-percent">SaaS MVP • 6-8 weeks</p>
+                                <span class="price">9,500</span>
+                            </div>
+                            <div class="pricing-details">
+                                <ul>
+                                    <li><i class="ri-arrow-right-line"></i>Full-stack MVP with auth & payments</li>
+                                    <li><i class="ri-arrow-right-line"></i>Admin dashboard & analytics</li>
+                                    <li><i class="ri-arrow-right-line"></i>CI/CD, staging & production setup</li>
+                                    <li><i class="ri-arrow-right-line"></i>Design system, 3 revisions, 60-day support</li>
+                                </ul>
+                                <a href="#" class="theme-btn">Order Now <i class="ri-shopping-basket-line"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END PRICING DESIGN AREA -->	
+    <!-- START TESTIMONIALS DESIGN AREA -->
+    <section class="testimonials-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <p>Testinomials</p>
+                            <h2>What clients say!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="testimonials-wrap">
+                            <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                            <div class="testimonial-item wow fadeInUp delay-0-3s">
+                                <div class="author">
+                                    <img src="assets/images/testimonials/author1.jpg" alt="Author" />
+                                </div>
+                                <div class="text">
+                                    I sent Lauren a broken figma file and half an idea for a dashboard. Two weeks later, it looked like something a funded startup would brag about. She even fixed my color palette without me realizing it.
+                                </div>
+                                <div class="testi-des">
+                                    <h5>— Jordan Patel</h5>
+                                    <span>Product Designer @ ByteFlow</span>
+                                </div>
+                            </div>
+                            <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                            <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                            <div class="testimonial-item wow fadeInUp delay-0-4s">
+                                <div class="author">
+                                    <img src="assets/images/testimonials/author2.jpg" alt="Author" />
+                                </div>
+                                <div class="text">
+                                    We hired Lauren for a quick landing page revamp. “Quick” turned into her redesigning our entire sign-up flow because, in her words, “the button was gaslighting users.” Best decision we ever made.
+                                </div>
+                                <div class="testi-des">
+                                    <h5>— Mia Raymond</h5>
+                                    <span>Growth Lead @ CloudMint</span>
+                                </div>
+                            </div>
+                            <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                            <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                            <div class="testimonial-item wow fadeInUp delay-0-2s">
+                                <div class="author">
+                                    <img src="assets/images/testimonials/author3.jpg" alt="Author" />
+                                </div>
+                                <div class="text">
+                                    I first contacted Lauren after seeing her Food Checkout UI on Dribbble. I thought, “No way it actually works that smoothly.” Spoiler: it did. She rebuilt our ordering system, and the loading spinner alone got compliments. She calls it “micro-joy.” We call it profit.
+                                </div>
+                                <div class="testi-des">
+                                    <h5>— Claire Mendez</h5>
+                                    <span>Product Owner @ Eatly</span>
+                                </div>
+                            </div>
+                            <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                            <!-- START SINGLE TESTIMONIALS DESIGN AREA -->
+                            <div class="testimonial-item wow fadeInUp delay-0-4s">
+                                <div class="author">
+                                    <img src="assets/images/testimonials/author4.jpg" alt="Author" />
+                                </div>
+                                <div class="text">
+                                    Lauren built our startup site over a weekend while gently explaining why my font choices hurt her feelings. The site loads faster, and I now pretend I knew what a component library was all along.
+                                </div>
+                                <div class="testi-des">
+                                    <h5>— Zach Greene</h5>
+                                    <span>Co-Founder @ DashLabs</span>
+                                </div>
+                            </div>
+                            <!-- / END SINGLE TESTIMONIALS DESIGN AREA -->
+                        </div>
+                        <div class="slider-arrows wow fadeInUp delay-0-6s text-center pt-40">
+                            <button class="testimonial-prev">
+                                <i class="ri-arrow-left-s-line"></i>
+                            </button>
+                            <button class="testimonial-next">
+                                <i class="ri-arrow-right-s-line"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END TESTIMONIALS DESIGN AREA -->	
+    <!-- START BRAND DESIGN AREA -->
+    <div class="client-logo-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-12">
+                    <div class="section-title text-center pt-5 mb-65 wow fadeInUp delay-0-2s">
+                        <p>Products I Use</p>
+						<h2>15+ Global Partners</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="client-logo-wrap">
+                <a class="client-logo-item wow fadeInUp delay-0-2s">
+                    <img src="assets/images/client-logos/partner1.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-3s">
+                    <img src="assets/images/client-logos/partner2.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-4s">
+                    <img src="assets/images/client-logos/partner3.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-5s">
+                    <img src="assets/images/client-logos/partner4.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-6s">
+                    <img src="assets/images/client-logos/partner5.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-2s">
+                    <img src="assets/images/client-logos/partner6.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-3s">
+                    <img src="assets/images/client-logos/partner7.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-4s">
+                    <img src="assets/images/client-logos/partner8.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-5s">
+                    <img src="assets/images/client-logos/partner9.png" alt="brand Logo" />
+                </a>
+                <a class="client-logo-item wow fadeInUp delay-0-6s">
+                    <img src="assets/images/client-logos/partner10.png" alt="brand Logo" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- END BRAND DESIGN AREA -->		
+    <!-- START CONTACT DESIGN AREA -->
+    <section id="contact" class="contact-area">
+        <div class="container">
+            <div class="container-inner">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="section-title text-center wow fadeInUp delay-0-2s">
+                            <p>contact</p>
+                            <h2>Get in Touch with Me!</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="contact-content-part  wow fadeInUp delay-0-2s">
+                            <!-- START CONTACT SINGLEDESIGN AREA -->
+                            <div class="single-contact wow fadeInUp" data-wow-delay=".2s">
+                                <div class="contact-icon">
+                                    <i class="ri-map-pin-line"></i>
+                                </div>
+                                <h2>our office:</h2>
+                                <p>San Francisco Bay Area, CA 94105</p>
+                            </div>
+                            <!-- / END CONTACT SINGLEDESIGN AREA -->
+                            <!-- START CONTACT SINGLEDESIGN AREA -->
+                            <div class="single-contact wow fadeInUp" data-wow-delay=".4s">
+                                <div class="contact-icon">
+                                    <i class="ri-phone-line"></i>
+                                </div>
+                                <h2>contact number:</h2>
+                                <p>+1(341) 200-5892</p>
+                            </div>
+                            <!-- / END CONTACT SINGLEDESIGN AREA -->
+                            <!-- START CONTACT SINGLEDESIGN AREA -->
+                            <div class="single-contact wow fadeInUp" data-wow-delay=".6s">
+                                <div class="contact-icon">
+                                    <i class="ri-mail-line"></i>
+                                </div>
+                                <h2>Email us:</h2>
+                                <p>hello@lauren-salvo.dev</p>
+                            </div>
+                            <!-- / END CONTACT SINGLEDESIGN AREA -->
+                        </div>
+                    </div>
+                    <!-- START CONTACT FORM DESIGN AREA -->
+                    <div class="col-lg-8">
+                        <div class="contact-form contact-form-area wow fadeInUp delay-0-4s">
+                            <form id="newForm" method="post" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name">Full Name</label>
+                                            <input type="text" id="name" name="name" class="form-control" value="" placeholder="Daniel Milner" required="" data-error="Please enter your Name" />
+                                            <label for="name" class="for-icon"><i class="far fa-user"></i></label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">Email Address</label>
+                                            <input type="email" id="email" name="email" class="form-control" value="" placeholder="hello@websitename.com" required="" data-error="Please enter your Email" />
+                                            <label for="email" class="for-icon"><i class="far fa-envelope"></i></label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <input type="text" id="subject" class="form-control" value="" placeholder="Your Subject" required="" data-error="Please enter your Name" />
+                                            <label for="subject" class="for-icon"><i class="far fa-user"></i></label>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="message">Your Message</label>
+                                            <textarea name="message" id="message" class="form-control" rows="4" placeholder="Write Your message" required="" data-error="Please Write your Message"></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group mb-0">
+                                            <button type="submit" class="theme-btn">
+                                                Send Me Message <i class="ri-mail-line"></i>
+                                            </button>
+                                            <div id="msgSubmit" class="hidden"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- / END CONTACT FORM DESIGN AREA -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- / END CONTACT DESIGN AREA -->
+    <!-- START CALL TO ACTION DESIGN AREA -->
+    <section class="call-to-action-area">
+        <div class="container">
+            <div class="row">
+                <!-- START ABOUT TEXT DESIGN AREA -->
+                <div class="col-lg-12">
+                    <div class="call-to-action-part wow fadeInUp delay-0-2s text-center">
+                        <h2>Are You Ready to <span>kickstart</span> your <span>project</span> with a touch of magic?</h2>
+                        <p>Reach out and let's make it happen ✨. I’m available for freelance, full-time, or part-time work — always excited to push boundaries and create something exceptional.</p>
+                        <div class="hero-btns">
+                            <a href="tel:+13412005892" class="theme-btn">Let's Talk <i class="ri-phone-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- / END ABOUT TEXT DESIGN AREA -->
+            </div>
+        </div>
+    </section>
+    <!--  // END CALL TO ACTION DESIGN AREA -->	
+    <!-- START FOOTER DESIGN AREA -->
+    <footer class="main-footer">
+        <div class="footer-bottom pt-50 pb-40">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="copyright-text">
+                            <p>
+                                Copyright @2021, <a href="index.html">Lauren Salvo</a> All
+                                Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="copyright-text extra-copyright">
+                            <p>
+                                Crafted with ❤️ by Lauren S.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- / END FOOTER DESIGN AREA -->
+<!-- START SCROOL UP DESIGN AREA -->
+    <div class="progress-wrap cursor-pointer">
+        <i class="ri-arrow-up-double-line"></i>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <!-- / END SCROOL UP DESIGN AREA -->
+    <!-- ORDER BUTTON TO MESSAGE DETAILS -->   
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const pricingData = {
+            'Starter': {
+                subject: 'Starter Package Inquiry - One-Page Responsive Site',
+                message: 'Hi Lauren,\n\nI\'m interested in the Starter package ($1,500 • 1-2 weeks).\n\nPackage includes:\n- One-page responsive site\n- CMS/MDX setup\n- SEO & performance tuning\n- Contact form integration\n\nPlease provide more details and next steps.\n\nThank you!'
+            },
+            'Professional': {
+                subject: 'Professional Package Inquiry - React/Next.js App',
+                message: 'Hi Lauren,\n\nI\'m interested in the Professional package ($4,500 • 3-4 weeks).\n\nPackage includes:\n- Multi-page React/Next.js app\n- Component library & design tokens\n- Analytics & conversion tracking\n- 2 revisions, 30-day support\n\nPlease provide more details and next steps.\n\nThank you!'
+            },
+            'Growth': {
+                subject: 'Growth Package Inquiry - SaaS MVP',
+                message: 'Hi Lauren,\n\nI\'m interested in the Growth package ($9,500 • 6-8 weeks).\n\nPackage includes:\n- Full-stack MVP with auth & payments\n- Admin dashboard & analytics\n- CI/CD, staging & production setup\n- Design system, 3 revisions, 60-day support\n\nPlease provide more details and next steps.\n\nThank you!'
+            }
+        };
+
+        // Find all pricing buttons
+        const pricingButtons = document.querySelectorAll('.pricing-item .theme-btn');
+        
+        pricingButtons.forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Get the package title from the parent pricing item
+                const packageTitle = this.closest('.pricing-item').querySelector('.pricing-header .title').textContent.trim();
+                
+                // Get form fields
+                const subjectField = document.getElementById('subject');
+                const messageField = document.getElementById('message');
+                
+                // Fill form fields
+                if (pricingData[packageTitle]) {
+                    subjectField.value = pricingData[packageTitle].subject;
+                    messageField.value = pricingData[packageTitle].message;
+                    
+                    // Scroll to contact form
+                    document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+    });
+    </script>
+    <!-- JQUERY JS -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- BOOTSTRAP JS-->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- APPEAR JS -->
+    <script src="assets/js/appear.min.js"></script>
+	<!-- jquery smooth-scroll JS -->
+	<script src="assets/js/smooth-scroll.js"></script>		
+    <!-- GSAP JS -->
+    <script src="assets/js/gsap.min.js"></script>
+    <!-- MAGNIFICANT JS -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- SLICK JS-->
+    <script src="assets/js/slick.min.js"></script>
+    <!-- NICE SELECT JS-->
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <!-- IMAGE LOADER JS-->
+    <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+    <!-- ISOTOPE JS-->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!--  WOW ANIMATION JS-->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="assets/js/script.js"></script>
+    <!-- SCRIPT JS-->
+    <script src="assets/js/form-contact.js"></script>
+</body>
+
+</html>
