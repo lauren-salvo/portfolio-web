@@ -357,6 +357,26 @@ margin-bottom:30px;
     section.call-to-action-area .text-center {
         text-align: left !important;
     }
+
+    .about-social {
+    margin-top: 15px;
+    }
+
+    .about-social ul {
+        list-style: none;
+    }
+
+    .about-social ul li {
+        display: inline-block;
+        margin: 0px 8px;
+    }
+
+    .about-social ul li a {
+        font-size: 20px;
+        border: 1px solid #eee;
+        padding: 5px 6px;
+        border-radius: 5px;
+    }
 }
 
 
