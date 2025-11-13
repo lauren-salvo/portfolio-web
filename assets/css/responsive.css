@@ -353,8 +353,9 @@ margin-bottom:30px;
         padding: 20px !important;
     }
 
-    .text-center {
-    text-align: left !important;
+    /* Only center text inside the call-to-action section */
+    section.call-to-action-area .text-center {
+        text-align: left !important;
     }
 }
 
